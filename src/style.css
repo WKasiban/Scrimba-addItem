@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    background-color: #70b85d;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20vw;
+}
+
+button {
+    background-color: transparent;
+    padding: 1rem;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #fffef1;
+    color: #2c5e2e;
+}
+
+button:focus {
+    outline: 0;
+}
